@@ -1,0 +1,56 @@
+<html>
+	<head>
+		<title>form</title>
+	</head>
+	<body>
+		<h2><b>College Application Form</b></h2>
+		<h5>Please fill out the Application form carefully</h5>
+		<hr>
+		<h3>Personal information</h3>
+		<form>
+			<label> Name</label><br><br>
+			<input type="text" id="fname" name="fname" required placeholder="First name">
+			<input type="text" id="lname" name="lname" required placeholder="Last name"><br><br>
+		    <label>Date of Birth</label><br><br>
+			<input type="date"><br><br>
+			<label>Phone number</label><br><br>
+			<input type="text" id="phn" name="phn" maxlength="10"  pattern="[0-9]{8}" required placeholder="enter 10 digits"><br><br>
+			<label>Email</label><br><br>
+			<input type="email" id="mail" name="mail" required placeholder="enter your Email"><br><br>
+			<label>Address</label><br><br>
+			<input type="text" id="street" name="street" required placeholder="Street Address"><br><br>
+			<input type="text" id="City" name="City" required placeholder="City">
+			<label>State</label>
+			<select>
+				<option>Tamil Nadu</option>
+				<option>Mumbai</option>
+				<option>Karnataka</option>
+				<option>Delhi</option>
+				<option>Kerala</option>
+			</select><br><br>
+			<input type="text" id="zip" name="zip" maxlength="6"  pattern="[0-9]{8}" required placeholder="Zip code">
+			<input type="text" id="Country" name="Country" required placeholder="Country"><br>
+			<h3>Education Details</h3>
+			<label>1st school</label><br><br>
+			<input type="text" id="sch" name="sch" required placeholder="Institute">
+			<input type="text" id="brd" name="brd" required placeholder="Board">
+			<input type="text" id="mark" name="mark" required placeholder="Percentage"><br><br>
+			<label>2nd school</label><br><br>
+			<input type="text" id="sch" name="sch" required placeholder="Institute">
+			<input type="text" id="brd" name="brd" required placeholder="Board">
+			<input type="text" id="mark" name="mark" required placeholder="Percentage"><br><br>
+			<label>Diploma</label><br><br>
+			<input type="text" id="sch" name="sch" placeholder="Institute">
+			<input type="text" id="Stream" name="Stream" placeholder="Stream">
+			<input type="text" id="mark" name="mark" placeholder="Percentage"><br><br>
+			<input type="submit" value="Register">
+		
+
+		
+		
+		</form>
+		
+	
+		
+	</body>
+</html>
